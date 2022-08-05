@@ -1,0 +1,143 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Orbitron", sans-serif; 
+    
+}
+
+.container{
+    margin: 50px 80px 5px 80px;
+  
+}
+.navbar-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.navbar-container img{
+    width:150px;
+}
+
+.list{
+    list-style: none;
+}
+.list-item{
+    display: inline-block;
+    text-align: center;
+  padding: 14px 16px;
+  font-weight: 700;
+  font-size: larger;
+}
+
+.button-group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-button{
+    background-color: rgba(255, 255, 255, 0);
+    padding: 0.5rem 2rem ;
+    border: 3px solid #414141;
+    font-family: "Poppins", sans-serif;
+    border-radius: 15px;
+    font-size: medium;
+    font-weight: 500;
+    margin-left: 10px;  
+}
+
+.hero-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 60px;
+    height: 80vh;
+}
+
+.square{
+    position: absolute;
+    left: 175px;
+    top:40%;
+    z-index: -1;
+}
+.star{
+    position: absolute;
+    right: 10%;
+    top:20%;
+}
+.globe{
+    position: absolute;
+    width:50px;
+    top:15%;
+    left: 50%;
+}
+.hero-image img{
+    width: 70%;
+    
+}
+.icons img{
+    width: 50px;
+}
+.hero-container-right{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    height: 100%;
+}
+
+.hero-heading{
+    font-size: 3.2rem;
+    margin-top: 50px;
+}
+.hero-description{
+    font-family: "Poppins",sans-serif;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.button-email{
+    background-color: rgba(255, 255, 255, 0);
+    padding: 0.5rem 2rem ;
+    border: 3px solid #414141;
+    border-radius: 15px;
+    font-size: medium;
+    font-weight: 500;
+    margin-left: 10px; 
+    font-family: "Orbitron", sans-serif; 
+
+}
+.button-join{
+    background-color: rgba(18, 17, 17, 0.981);
+    padding: 0.5rem 1rem ;
+    border: 3px solid rgba(18, 17, 17, 0.981);;
+    border-radius: 15px;
+    font-size: medium;
+    font-weight: 500;
+    margin-left: 10px; 
+    color: #fff;
+    font-family: "Orbitron", sans-serif; 
+    
+}
+.contact-heading{
+    font-size: larger;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: #414141;
+}
+.icons{
+    display: flex;
+    width: 300px;
+    align-items: center;
+    justify-content: space-around;
+}
